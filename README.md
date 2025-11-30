@@ -1,1 +1,182 @@
-# MurderDr0nesN.github.io
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MurderDr0nesN - Social Links</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        body {
+            background: url('https://img.sanishtech.com/u/3bbd22ae3ca9140e3524026c70a0bc7d.png') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: rgba(25, 25, 35, 0.85);
+            backdrop-filter: blur(12px);
+            border-radius: 24px;
+            padding: 45px;
+            width: 100%;
+            max-width: 480px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            text-align: center;
+        }
+        
+        .profile {
+            margin-bottom: 35px;
+        }
+        
+        .avatar {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+            border: 4px solid rgba(255, 255, 255, 0.25);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+        
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        h1 {
+            color: #fff;
+            font-size: 28px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .subtitle {
+            color: #c0c0e0;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px 24px;
+            background: rgba(40, 40, 55, 0.7);
+            border-radius: 16px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .social-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            background: rgba(50, 50, 65, 0.9);
+        }
+        
+        .social-link i {
+            margin-right: 14px;
+            font-size: 22px;
+            width: 28px;
+            text-align: center;
+        }
+        
+        .twitch {
+            background: linear-gradient(45deg, #9146ff, #6441a5);
+        }
+        
+        .youtube {
+            background: linear-gradient(45deg, #ff0000, #cc0000);
+        }
+        
+        .discord {
+            background: linear-gradient(45deg, #5865f2, #4752c4);
+        }
+        
+        .social-link.twitch:hover {
+            background: linear-gradient(45deg, #a35bff, #7752b3);
+        }
+        
+        .social-link.youtube:hover {
+            background: linear-gradient(45deg, #ff1a1a, #e60000);
+        }
+        
+        .social-link.discord:hover {
+            background: linear-gradient(45deg, #6a77f5, #5563d1);
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 35px 20px;
+            }
+            
+            .avatar {
+                width: 140px;
+                height: 140px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            .social-link {
+                padding: 14px 20px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div class="avatar">
+                <img src="https://img.sanishtech.com/u/84655f2fde7f15c036a4d5d370ff2c95.jpg" alt="Profile Picture">
+            </div>
+            <h1>MurderDr0nesN</h1>
+            <p class="subtitle">Seguimi sui social!</p>
+        </div>
+        
+        <div class="social-links">
+            <a href="https://twitch.tv/murderdr0nesn" class="social-link twitch" target="_blank">
+                <i class="fab fa-twitch"></i>
+                Twitch
+            </a>
+            <a href="https://youtube.com/@MurderDr0nesN_live" class="social-link youtube" target="_blank">
+                <i class="fab fa-youtube"></i>
+                MurderDr0nesnLive
+            </a>
+            <a href="https://youtube.com/@robloxdevcore" class="social-link youtube" target="_blank">
+                <i class="fab fa-youtube"></i>
+                RobloxDevCore
+            </a>
+            <a href="https://discord.gg/qSJMDEwRzZ" class="social-link discord" target="_blank">
+                <i class="fab fa-discord"></i>
+                Discord
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
